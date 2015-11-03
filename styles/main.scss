@@ -1,0 +1,40 @@
+//what should a base font size be??
+//style guide variables
+
+$headline-text: 3rem;
+$body-text: 1rem;
+$nav-item: 1.25rem;
+$sub-header: 1.5rem;
+$byline: .75rem;
+
+$sans-serif: 'Open Sans', sans-serif;
+$serif: 'Slabo 27px', serif;
+$widefont: 'Raleway', sans-serif;
+
+$headline-margin: 5px;
+
+body{
+  font-size: 16px;
+}
+
+h1{
+  font-size: $headline-text;
+  margin: $headline-margin;
+}
+
+p{
+  font-size: $body-text;
+}
+
+nav li{
+  font-size: $nav-item;
+}
+
+h2 {
+  font-size: $sub-header;
+}
+
+figcaption {
+  font-size: $byline;
+}
+//rem is a responsive design measurement based on root elemetn of document which is BODY. 1rem is 100%, 2 is 200%, etc. etc.
