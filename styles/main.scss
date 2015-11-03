@@ -10,6 +10,7 @@ $byline: .75rem;
 $sans-serif: 'Open Sans', sans-serif;
 $serif: 'Slabo 27px', serif;
 $widefont: 'Raleway', sans-serif;
+$font4: 'Josefin Sans', sans-serif;
 
 $headline-margin: 5px;
 
@@ -20,10 +21,12 @@ body{
 h1{
   font-size: $headline-text;
   margin: $headline-margin;
+  font-family: $widefont;
 }
 
 p{
   font-size: $body-text;
+  font-family: $font4;
 }
 
 nav li{
@@ -32,6 +35,7 @@ nav li{
 
 h2 {
   font-size: $sub-header;
+  font-family: $serif;
 }
 
 figcaption {
